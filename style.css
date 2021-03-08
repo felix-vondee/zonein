@@ -1,0 +1,20 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.logo {
+  position: relative;
+  top: 10px;
+}
+
+@media (min-width: 768px) {
+  .icon {
+    position: relative;
+    top: 5px;
+  }
+}
