@@ -9,9 +9,22 @@ a {
   }
 }
 
+h1 {
+  color: white;
+}
+
 .logo {
   position: relative;
   top: 10px;
+}
+
+.im {
+  background-image: url(images/evnt.jpg);
+  height: 600px;
+}
+
+.se {
+  background-color: rgba($color: #a7a2a2, $alpha: 0.7);
 }
 
 @media (min-width: 768px) {
