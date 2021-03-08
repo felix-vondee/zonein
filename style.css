@@ -1,3 +1,12 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -7,7 +16,8 @@ a:hover {
   color: white;
 }
 
-h1 {
+h1,
+.hdr {
   color: white;
 }
 
@@ -33,14 +43,49 @@ h1 {
   color: #636161;
 }
 
+div.circl {
+  width: 180px;
+  min-height: 160px;
+  border-radius: 50%;
+  background-image: url(/images/pin.jpg);
+}
+
+.spec {
+  border: none;
+  -webkit-box-shadow: 2px 1px 5px #5a5a5a;
+  box-shadow: 2px 1px 5px #5a5a5a;
+  width: 180px;
+  border-radius: 2px;
+  color: #d45649;
+  font-weight: bold;
+  min-height: 30px;
+}
+
+.sec3 {
+  height: 600px;
+}
+
+.sec3 > div {
+  height: 200px;
+}
+
 div > p {
   color: #3b3a3a;
-  text-align: center;
+  text-align: left;
+}
+
+h3 > p {
+  text-align: start;
 }
 
 @media (min-width: 768px) {
   .icon {
     position: relative;
     top: 5px;
+  }
+
+  div.circl {
+    width: 200px;
+    min-height: 180px;
   }
 }
