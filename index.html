@@ -1,50 +1,97 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/37124d06d1.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
 
-    <title>Zonein</title>
-  </head>
-  <body>
-    
-    <nav class="navbar sticky-top navbar-light" style="background-color: #d45649;">
-      <div class="container d-flex flex-column justify-content-center flex-md-row justify-content-md-between">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/37124d06d1.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Zonein</title>
+</head>
+
+<body>
+
+  <nav class="navbar sticky-top navbar-light" style="background-color: #d45649;">
+    <div class="container d-flex flex-column justify-content-center flex-md-row justify-content-md-between">
       <div>
-        <a class="navbar-brand d-flex justify-content-center align-items-center flex-row" style="color: white;" href="#">
+        <a class="navbar-brand d-flex justify-content-center align-items-center flex-row" style="color: white;"
+          href="#">
           <i class="fas fa-map-marker-alt"></i>
           <p class="fw-bold px-2 logo">ZONEin</p>
         </a>
       </div>
       <div class="d-flex w-50 justify-content-evenly pt-3">
-        <a class="d-flex" href="#"><i class="fas fa-search icon"></i><p class="d-none px-2 d-lg-flex">SCHOOLS</p></a>
-        <a class="d-flex" href="#"><i class="far fa-user icon"></i><p class="d-none px-2 d-lg-flex">ABOUT</p></a>
-        <a class="d-flex" href="#"><i class="fas fa-rss icon"></i><p class="d-none px-2 d-lg-flex">BLOG</p></a>
-        <a class="d-flex" href="#"><i class="fas fa-bars icon"></i><p class="d-none px-2 d-lg-flex">MORE</p></a>
+        <a class="d-flex" href="#"><i class="fas fa-search icon"></i>
+          <p class="d-none px-2 d-lg-flex">EVENTS</p>
+        </a>
+        <a class="d-flex" href="#"><i class="far fa-user icon"></i>
+          <p class="d-none px-2 d-lg-flex">ABOUT</p>
+        </a>
+        <a class="d-flex" href="#"><i class="fas fa-rss icon"></i>
+          <p class="d-none px-2 d-lg-flex">BLOG</p>
+        </a>
+        <a class="d-flex" href="#"><i class="fas fa-bars icon"></i>
+          <p class="d-none px-2 d-lg-flex">MORE</p>
+        </a>
       </div>
-      </div>
-    </nav>
-    <header>
-      <div class="im d-flex flex-column justify-content-center justify-content-evenly align-items-center">
+    </div>
+  </nav>
+  <header>
+    <div class="im d-flex flex-column justify-content-center justify-content-evenly align-items-center">
       <h1>ZONEin: Where events live</h1>
       <div class="se rounded-3 w-75 pt-4 pb-4 px-3">
         <h3 class="px-3">SEARCH BY KEYWORD:</h3>
         <div class="input-group container-fluid justify-content-evenly row">
           <input type="text" class="form-control col-md-10" placeholder="Enter event keywords">
           <button class="btn col-md-2" style="background-color: #d45649;">Search</button>
-      </div>
+        </div>
       </div>
       <button type="button" class="btn btn-secondary btn-md">How it works</button>
+    </div>
+  </header>
+  <section>
+    <div class="d-flex flex-column justify-content-around align-items-center">
+      <h3 class="pt-5 pb-2" style="color: #d45649;">ZONEin WORKS IN FOUR SIMPLE STEPS</h3>
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="d-flex flex-column justify-content-evenly align-items-center col-md-4">
+            <i class="lrge fas pt-5 fa-3x fa-search-location"></i>
+            <h4 class="py-4">1-SEARCH:</h4>
+            <p class="fw-bold">Use the search box to enter keywords for an event and hit search. Alternatively click on
+              the search icon to view list of events.</p>
+          </div>
+          <div class="d-flex flex-column align-items-center col-12 col-md-4">
+            <i class="lrge fas pt-5 fa-3x fa-map-marked-alt"></i>
+            <h4 class="py-4">1-LOCATE:</h4>
+            <p class="fw-bold">See where the event is located and get directions from anywhere in the country.</p>
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="d-flex flex-column align-items-center col-12 col-md-4">
+            <i class="lrge fas pt-5 fa-3x fa-calendar-check"></i>
+            <h4 class="py-4">1-APPLY:</h4>
+            <p class="fw-bold">If you like the event. Simply apply for it on the details page</p>
+          </div>
+          <div class="d-flex flex-column align-items-center col-12 col-md-4">
+            <i class="lrge fas pt-5 fa-3x fa-umbrella-beach"></i>
+            <h4 class="py-4">1-ENJOY:</h4>
+            <p class="fw-bold">All that's left to do is to sit back until the day of your event, show up and enjoy.</p>
+          </div>
+        </div>
       </div>
-    </header>
-    
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </div>
+  </section>
 
-  </body>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>

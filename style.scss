@@ -27,6 +27,19 @@ h1 {
   background-color: rgba($color: #a7a2a2, $alpha: 0.7);
 }
 
+.works {
+  height: 600px;
+}
+
+.lrge {
+  color: #636161;
+}
+
+div > p {
+  color: #3b3a3a;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .icon {
     position: relative;
