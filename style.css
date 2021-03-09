@@ -51,7 +51,21 @@ div.circl {
   width: 180px;
   min-height: 160px;
   border-radius: 50%;
-  background-image: url(/images/pin.jpg);
+  background-image: url(/images/hands.jpg);
+}
+
+div.circl1 {
+  width: 180px;
+  min-height: 160px;
+  border-radius: 50%;
+  background-image: url(/images/food.jpg);
+}
+
+div.circl2 {
+  width: 180px;
+  min-height: 160px;
+  border-radius: 50%;
+  background-image: url(/images/mardi.jpg);
 }
 
 .spec {
@@ -139,7 +153,9 @@ h3 > p {
     top: 5px;
   }
 
-  div.circl {
+  div.circl,
+  div.circl1,
+  div.circl2 {
     width: 200px;
     min-height: 180px;
   }

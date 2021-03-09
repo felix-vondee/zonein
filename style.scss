@@ -1,12 +1,18 @@
-$col : white;
-$mn: #d45649;
-
 *,
 *::before,
 *::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+$col : white;
+$mn: #d45649;
+
+@mixin pics {
+  width: 180px;
+  min-height: 160px;
+  border-radius: 50%;
 }
 
 a {
@@ -50,10 +56,21 @@ h1,
 }
 
 div.circl {
-  width: 180px;
-  min-height: 160px;
-  border-radius: 50%;
-  background-image: url(/images/pin.jpg);
+  @include pics;
+
+  background-image: url(/images/hands.jpg);
+}
+
+div.circl1 {
+  @include pics;
+
+  background-image: url(/images/food.jpg);
+}
+
+div.circl2 {
+  @include pics;
+
+  background-image: url(/images/mardi.jpg);
 }
 
 .spec {
@@ -130,7 +147,9 @@ h3 > p {
     top: 5px;
   }
 
-  div.circl {
+  div.circl,
+  div.circl1,
+  div.circl2 {
     width: 200px;
     min-height: 180px;
   }

@@ -1,0 +1,13 @@
+.filter {
+  height: 350px;
+  background-color: #cac8c8;
+}
+
+.results {
+  height: auto;
+}
+
+.res-img {
+  width: 280px;
+  height: 280px;
+}
