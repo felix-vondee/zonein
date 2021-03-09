@@ -52,7 +52,7 @@
           <button class="btn col-md-2" style="background-color: #d45649;">Search</button>
         </div>
       </div>
-      <button type="button" class="btn btn-secondary btn-md">How it works</button>
+      <button type="button" class="btn btn-secondary btn-md" onclick="location.href='#'">How it works</button>
     </div>
   </header>
   <section class="how-works">
@@ -93,7 +93,7 @@
         <div>
           <h3 class="hdr">Over 100,000 events created daily!!</h3>
           <p class="hdr">Find an event near you today</p>
-          <button class="spec">Find event</button>
+          <button class="spec" onclick="location.href='#'" type="button">Find event</button>
         </div>
         <div class="circl">
         </div>
@@ -102,7 +102,7 @@
         <div>
           <h3 class="hdr">Why search other online directories</h3>
           <p class="hdr">Be a part of our vibrant family</p>
-          <button class="spec">Find event near you</button>
+          <button class="spec" onclick="location.href='#'" type="button">Find event near you</button>
         </div>
         <div class="circl">
         </div>
@@ -118,8 +118,50 @@
   </section>
 </main>
 
-<footer>
-
+<footer class="pt-5">
+<div class="footer1-container">
+   <div class="footer1-sec1">
+      <p><a href="#">HOME</a></p>
+      <p><a href="#">SEARCH</a></p>
+      <p><a href="#">ABOUT US</a></p>
+      <p><a href="#">ADVERTISE</a></p>
+      <p><a href="#"><i class="fas fa-3x fa-map-marker-alt"></i></a></p>
+      <p><a href="#">FACEBOOK</a></p>
+      <p><a href="#">TWITTER</a></p>
+      <p><a href="#">BLOG</a></p>
+      <p><a href="#">GOOGLE +</a></p>
+   </div>
+    <div class="footer1-sec2">
+      <div>
+        <h5 class="fhd">SUBSCRIBE</h5>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="you@example.com">
+          <div class="input-group-append mybtn">
+            <a href="#" class="input-group-text" id="basic-addon2">Send</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h5 class="fhd">CONTACT</h5>
+        <p class="txt">Reach us today</p>
+      </div>
+      <div>
+        <h5 class="fhd">ABOUT</h5>
+        <p class="txt">ZONEin is a fun and exiting platform for finding events near you</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer2-container d-flex justify-content-between">
+    <div class="icons-cont d-flex pt-5 justify-content-around" style="width: 25%;">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="d-flex justify-content-around pt-5 px-5">
+     <a href="#" class="px-2"><i class="fas fa-map-marker-alt" style="width: 50%;"></i></a>
+      <p class="fw-bold" style="color: rgb(216, 215, 215);">Copyright 2021 zonein.com</p>
+    </div>
+  </div>
 </footer>
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"

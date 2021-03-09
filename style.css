@@ -16,6 +16,10 @@ a:hover {
   color: white;
 }
 
+.mybtn > a:hover {
+  color: #d45649;
+}
+
 h1,
 .hdr {
   color: white;
@@ -78,6 +82,57 @@ h3 > p {
   text-align: start;
 }
 
+.txt,
+.fhd {
+  color: white;
+  text-align: center;
+}
+
+.footer1-container {
+  background-color: #0a0a0a;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.footer1-sec1 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer1-sec1 > p {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.footer1-sec2 {
+  padding-top: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.footer1-sec2 > div {
+  padding: 0 10%;
+}
+
+.footer2-container {
+  background-color: #222;
+  height: 100px;
+}
+
 @media (min-width: 768px) {
   .icon {
     position: relative;
@@ -87,5 +142,31 @@ h3 > p {
   div.circl {
     width: 200px;
     min-height: 180px;
+  }
+
+  .footer1-sec1 {
+    width: 80%;
+    padding-left: 18%;
+  }
+
+  .footer1-sec1 > p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .footer1-sec2 {
+    padding-top: 70px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer1-sec2 > div {
+    padding: 0 10%;
+  }
+
+  .footer1-container {
+    height: 350px;
   }
 }
