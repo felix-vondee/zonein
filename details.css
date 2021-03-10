@@ -39,5 +39,5 @@
 div.imgbx {
   width: 80%;
   height: 600px;
-  background-image: url(/images/map.jpg);
+  background-image: url(./images/map.jpg);
 }
