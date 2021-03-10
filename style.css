@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 a {
@@ -51,27 +51,27 @@ div.circl {
   width: 180px;
   min-height: 160px;
   border-radius: 50%;
-  background-image: url(/images/hands.jpg);
+  background-image: url(images/hands.jpg);
 }
 
 div.circl1 {
   width: 180px;
   min-height: 160px;
   border-radius: 50%;
-  background-image: url(/images/food.jpg);
+  background-image: url(images/food.jpg);
 }
 
 div.circl2 {
   width: 180px;
   min-height: 160px;
   border-radius: 50%;
-  background-image: url(/images/mardi.jpg);
+  background-image: url(images/mardi.jpg);
 }
 
 .spec {
   border: none;
   -webkit-box-shadow: 2px 1px 5px #5a5a5a;
-  box-shadow: 2px 1px 5px #5a5a5a;
+          box-shadow: 2px 1px 5px #5a5a5a;
   width: 180px;
   border-radius: 2px;
   color: #d45649;
@@ -105,19 +105,21 @@ h3 > p {
 .footer1-container {
   background-color: #0a0a0a;
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footer1-sec1 {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
@@ -133,9 +135,9 @@ h3 > p {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
 }
 
 .footer1-sec2 > div {
@@ -143,7 +145,7 @@ h3 > p {
 }
 
 .footer2-container {
-  background-color: #222;
+  background-color: #222222;
   height: 100px;
 }
 
@@ -152,37 +154,32 @@ h3 > p {
     position: relative;
     top: 5px;
   }
-
   div.circl,
   div.circl1,
   div.circl2 {
     width: 200px;
     min-height: 180px;
   }
-
   .footer1-sec1 {
     width: 80%;
     padding-left: 18%;
   }
-
   .footer1-sec1 > p {
     font-size: 12px;
     font-weight: bold;
   }
-
   .footer1-sec2 {
     padding-top: 70px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
   }
-
   .footer1-sec2 > div {
     padding: 0 10%;
   }
-
   .footer1-container {
     height: 350px;
   }
 }
+/*# sourceMappingURL=style.css.map */

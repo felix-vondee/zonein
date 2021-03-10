@@ -58,19 +58,19 @@ h1,
 div.circl {
   @include pics;
 
-  background-image: url(/images/hands.jpg);
+  background-image: url(images/hands.jpg);
 }
 
 div.circl1 {
   @include pics;
 
-  background-image: url(/images/food.jpg);
+  background-image: url(images/food.jpg);
 }
 
 div.circl2 {
   @include pics;
 
-  background-image: url(/images/mardi.jpg);
+  background-image: url(images/mardi.jpg);
 }
 
 .spec {
