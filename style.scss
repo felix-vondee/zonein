@@ -55,22 +55,22 @@ h1,
   color: #636161;
 }
 
-div.circl {
+.circl {
   @include pics;
 
-  background-image: url(images/hands.jpg);
+  background-image: url(./images/hands.jpg);
 }
 
-div.circl1 {
+.circl1 {
   @include pics;
 
-  background-image: url(images/food.jpg);
+  background-image: url(./images/food.jpg);
 }
 
-div.circl2 {
+.circl2 {
   @include pics;
 
-  background-image: url(images/mardi.jpg);
+  background-image: url(./images/mardi.jpg);
 }
 
 .spec {
@@ -147,9 +147,9 @@ h3 > p {
     top: 5px;
   }
 
-  div.circl,
-  div.circl1,
-  div.circl2 {
+  .circl,
+  .circl1,
+  .circl2 {
     width: 200px;
     min-height: 180px;
   }
