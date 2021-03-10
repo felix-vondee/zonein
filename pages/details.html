@@ -1,20 +1,147 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/37124d06d1.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/pages/details.css">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <title>Details</title>
+</head>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<body>
+  <main>
+    <nav class="navbar sticky-top navbar-light" style="background-color: #d45649;">
+      <div class="container d-flex flex-column justify-content-center flex-md-row justify-content-md-between">
+        <div>
+          <a class="navbar-brand d-flex justify-content-center align-items-center flex-row" style="color: white;"
+            href="/index.html">
+            <i class="fas fa-map-marker-alt"></i>
+            <p class="fw-bold px-2 logo">ZONEin</p>
+          </a>
+        </div>
+        <div class="d-flex w-50 justify-content-evenly pt-3">
+          <a class="d-flex" href="/pages/search.html"><i class="fas fa-search icon"></i>
+            <p class="d-none px-2 d-lg-flex">EVENTS</p>
+          </a>
+          <a class="d-flex" href="#"><i class="far fa-user icon"></i>
+            <p class="d-none px-2 d-lg-flex">ABOUT</p>
+          </a>
+          <a class="d-flex" href="#"><i class="fas fa-rss icon"></i>
+            <p class="d-none px-2 d-lg-flex">BLOG</p>
+          </a>
+          <a class="d-flex" href="#"><i class="fas fa-bars icon"></i>
+            <p class="d-none px-2 d-lg-flex">MORE</p>
+          </a>
+        </div>
+      </div>
+    </nav>
 
-  </body>
+    <section class="d-flex flex-column">
+      <div class="contbx mt-5 pt-3 pb-3 d-flex flex-wrap align-self-center">
+        <h4 class="abss px-2"><i class="px-2 far fa-calendar-alt"></i>LIGHTS EVE</h4>
+        <div class="contitm col-12 col-md-6 col-sm-6 col-lg-3">
+          <div class="itm">
+            <p class="itmtxt">RATING:<span class="intxt">4.5<i class="fas fa-star"></i></span></p>
+          </div>
+          <div class="itm">
+            <p class="itmtxt">PRICE:<span class="intxt">$50</span></p>
+          </div>
+        </div>
+        <div class="contitm col-12 col-md-6 col-sm-6 col-lg-3">
+          <div class="itm">
+            <p class="itmtxt">CITY:<span class="intxt">DURBAN</span></p>
+          </div>
+          <div class="itm">
+            <p class="itmtxt">COUNTRY:<span class="intxt">RSA</span></p>
+          </div>
+        </div>
+        <div class="contitm col-12 col-md-6 col-sm-6 col-lg-3">
+          <div class="itm">
+            <p class="itmtxt">DURATION:<span class="intxt">3HRS</span></p>
+          </div>
+          <div class="itm">
+            <p class="itmtxt">FREE DRINKS</p>
+          </div>
+        </div>
+        <div class="contitm col-12 col-md-6 col-sm-6 col-lg-3">
+          <div class="itm">
+            <p class="itmtxt">VIP AREA</p>
+          </div>
+          <div class="itm">
+            <p class="itmtxt">NETWORKING</p>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary mx-2"><i class="px-2 fas fa-envelope"></i>Apply</button>
+      </div>
+      <div class="grycnt mt-4 pt-4 align-self-center"><a class="spca" href="#">
+          <p class="fw-bold fs-5" style="letter-spacing: 6px; text-align: center;"><i class="fas fa-bars icon mx-2"></i>CLICK TO VIEW
+            MORE DETAILS.</p>
+        </a></div>
+        <div class="align-self-center mt-4">
+          <h4 style="color: #d45649;"><i class="mx-2 far fa-compass"></i>MAP DIRECTIONS</h4>
+        </div>
+        <div class="imgbx align-self-center mt-4"></div>
+    </section>
+  </main>
+
+  <footer class="pt-5">
+    <div class="footer1-container">
+      <div class="footer1-sec1">
+        <p><a href="#">HOME</a></p>
+        <p><a href="#">SEARCH</a></p>
+        <p><a href="#">ABOUT US</a></p>
+        <p><a href="#">ADVERTISE</a></p>
+        <p><a href="#"><i class="fas fa-3x fa-map-marker-alt"></i></a></p>
+        <p><a href="#">FACEBOOK</a></p>
+        <p><a href="#">TWITTER</a></p>
+        <p><a href="#">BLOG</a></p>
+        <p><a href="#">GOOGLE +</a></p>
+      </div>
+      <div class="footer1-sec2">
+        <div>
+          <h5 class="fhd">SUBSCRIBE</h5>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="you@example.com">
+            <div class="input-group-append mybtn">
+              <a href="#" class="input-group-text" id="basic-addon2">Send</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h5 class="fhd">CONTACT</h5>
+          <p class="txt">Reach us today</p>
+        </div>
+        <div>
+          <h5 class="fhd">ABOUT</h5>
+          <p class="txt">ZONEin is a fun and exiting platform for finding events near you</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer2-container d-flex justify-content-between">
+      <div class="icons-cont d-flex pt-5 justify-content-around" style="width: 25%;">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="d-flex justify-content-around pt-5 px-5">
+        <a href="#" class="px-2"><i class="fas fa-map-marker-alt" style="width: 50%;"></i></a>
+        <p class="fw-bold" style="color: rgb(216, 215, 215);">Copyright 2021 zonein.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
