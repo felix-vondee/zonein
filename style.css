@@ -129,13 +129,11 @@ h3 > p {
 }
 
 .footer1-sec2 {
-  padding-top: 40px;
+  padding: 40px 0;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .footer1-sec2 > div {
@@ -171,7 +169,7 @@ h3 > p {
   }
 
   .footer1-sec2 {
-    padding-top: 70px;
+    padding: 70px 0;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
@@ -183,6 +181,6 @@ h3 > p {
   }
 
   .footer1-container {
-    height: 350px;
+    height: auto;
   }
 }
