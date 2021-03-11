@@ -1,8 +1,8 @@
 # ZONEin
 
 > The goal of this project was to design the front end of an event search platform. 
-> The design is resposive and users can easily access information on any screen size.
-> The project was mostly built with bootstrap, but demonstrates usage of plain CSS flexbox and grid in certain areas.
+> The design is responsive and users can easily access information on any screen size.
+> The project was mostly built with bootstrap, but demonstrates the usage of plain CSS flexbox and grid in certain areas.
 
 
 ### HOME PAGE
@@ -32,6 +32,7 @@
 ## Getting Started
 
 **To get a local copy of this project, simply click the green "code" button above and clone it, or simply download the zip file.**
+**How to run this project in your browser: On some mobile views, if the page is not responsive, try reloading the page.**
 
 ## Authors
 

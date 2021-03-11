@@ -1,5 +1,5 @@
 .filter {
-  height: 350px;
+  height: 370px;
   background-color: #cac8c8;
 }
 
@@ -11,3 +11,8 @@
   width: 280px;
   height: 280px;
 }
+
+.filtdiv {
+  padding-left: 20px;
+}
+/*# sourceMappingURL=search.css.map */

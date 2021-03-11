@@ -114,15 +114,14 @@ h3 > p {
 
 .footer1-sec1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  max-width: 100%;
+}
 
-  & > p {
-    font-size: 10px;
-    font-weight: bold;
-  }
+.nvtxt {
+  font-weight: bold;
 }
 
 .footer1-sec2 {
@@ -138,6 +137,12 @@ h3 > p {
 .footer2-container {
   background-color: rgb(34, 34, 34);
   height: 100px;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: auto;
+  }
 }
 
 @media (min-width: 768px) {
