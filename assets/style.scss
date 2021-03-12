@@ -1,0 +1,184 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$col : white;
+$mn: #d45649;
+
+@mixin pics {
+  width: 180px;
+  min-height: 160px;
+  border-radius: 50%;
+}
+
+a {
+  color: $col;
+  text-decoration: none;
+
+  &:hover {
+    color: $col;
+  }
+}
+
+.mybtn > a:hover {
+  color: $mn;
+}
+
+h1,
+.hdr {
+  color: $col;
+}
+
+.logo {
+  position: relative;
+  top: 10px;
+}
+
+.im {
+  background-image: url(images/evnt.jpg);
+  height: 600px;
+}
+
+.se {
+  background-color: rgba($color: #a7a2a2, $alpha: 0.7);
+}
+
+.works {
+  height: 600px;
+}
+
+.lrge {
+  color: #636161;
+}
+
+.circl {
+  @include pics;
+
+  background-image: url(./images/hands.jpg);
+}
+
+.circl1 {
+  @include pics;
+
+  background-image: url(./images/food.jpg);
+}
+
+.circl2 {
+  @include pics;
+
+  background-image: url(./images/mardi.jpg);
+}
+
+.spec {
+  border: none;
+  box-shadow: 2px 1px 5px rgb(90, 90, 90);
+  width: 180px;
+  border-radius: 2px;
+  color: $mn;
+  font-weight: bold;
+  min-height: 30px;
+}
+
+.sec3 {
+  height: 600px;
+
+  & > div {
+    height: 200px;
+  }
+}
+
+div > p {
+  color: #3b3a3a;
+  text-align: left;
+}
+
+h3 > p {
+  text-align: start;
+}
+
+.txt,
+.fhd {
+  color: $col;
+  text-align: center;
+}
+
+.footer1-container {
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer1-sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  max-width: 100%;
+}
+
+.nvtxt {
+  font-weight: bold;
+}
+
+.footer1-sec2 {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  & > div {
+    padding: 0 10%;
+  }
+}
+
+.footer2-container {
+  background-color: rgb(34, 34, 34);
+  height: 100px;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon {
+    position: relative;
+    top: 5px;
+  }
+
+  .circl,
+  .circl1,
+  .circl2 {
+    width: 200px;
+    min-height: 180px;
+  }
+
+  .footer1-sec1 {
+    width: 80%;
+    padding-left: 18%;
+
+    & > p {
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+
+  .footer1-sec2 {
+    padding: 70px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    & > div {
+      padding: 0 10%;
+    }
+  }
+
+  .footer1-container {
+    height: auto;
+  }
+}

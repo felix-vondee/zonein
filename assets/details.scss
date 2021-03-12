@@ -1,0 +1,42 @@
+.contbx {
+  width: 80%;
+  box-shadow: 1px -1px 10px 0.1px;
+}
+
+.itm {
+  border: 2px solid rgb(219, 216, 216);
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.itmtxt {
+  text-align: center;
+  font-weight: bold;
+}
+
+.intxt {
+  color: #0d6efd;
+  padding: 0 5px;
+}
+
+.abss {
+  display: block;
+  width: 100%;
+  color: #d45649;
+}
+
+.spca {
+  color: rgb(71, 71, 71);
+}
+
+.grycnt {
+  width: 80%;
+  background-color: rgb(199, 195, 195);
+  height: 100px;
+}
+
+div.imgbx {
+  width: 80%;
+  height: 600px;
+  background-image: url(./images/map.jpg);
+}
